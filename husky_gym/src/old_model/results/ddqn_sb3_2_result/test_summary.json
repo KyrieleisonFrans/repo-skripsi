@@ -1,0 +1,914 @@
+{
+  "test_id": "ddqn_sb3_2_result",
+  "model": "husky_ddqn_sb3_final.zip",
+  "timestamp": "2025-06-07T09:46:42.333903",
+  "results": [
+    {
+      "episode": 0,
+      "total_reward": -1.33,
+      "steps": 33,
+      "outcome": "collision",
+      "duration": 3.5185787677764893,
+      "final_goal_dist": 13.69741846119218,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 1,
+      "total_reward": -1.05,
+      "steps": 5,
+      "outcome": "collision",
+      "duration": 0.5522046089172363,
+      "final_goal_dist": 14.787547962429107,
+      "min_obstacle": 0.3322490155696869
+    },
+    {
+      "episode": 2,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.10764408111572266,
+      "final_goal_dist": 14.876532136161265,
+      "min_obstacle": 0.33353903889656067
+    },
+    {
+      "episode": 3,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.33629322052001953,
+      "final_goal_dist": 14.847371588931358,
+      "min_obstacle": 0.31375452876091003
+    },
+    {
+      "episode": 4,
+      "total_reward": -2.430000000000001,
+      "steps": 143,
+      "outcome": "collision",
+      "duration": 14.839958667755127,
+      "final_goal_dist": 8.135700739319512,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 5,
+      "total_reward": -1.5900000000000003,
+      "steps": 59,
+      "outcome": "collision",
+      "duration": 6.346802711486816,
+      "final_goal_dist": 12.411127713251759,
+      "min_obstacle": 0.286219984292984
+    },
+    {
+      "episode": 6,
+      "total_reward": -2.700000000000001,
+      "steps": 170,
+      "outcome": "collision",
+      "duration": 18.0595223903656,
+      "final_goal_dist": 11.00436055859593,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 7,
+      "total_reward": -1.7000000000000004,
+      "steps": 70,
+      "outcome": "collision",
+      "duration": 7.40921425819397,
+      "final_goal_dist": 13.798574019075682,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 8,
+      "total_reward": -1.02,
+      "steps": 2,
+      "outcome": "collision",
+      "duration": 0.22238922119140625,
+      "final_goal_dist": 15.018043209108354,
+      "min_obstacle": 0.29954394698143005
+    },
+    {
+      "episode": 9,
+      "total_reward": -1.9400000000000006,
+      "steps": 94,
+      "outcome": "collision",
+      "duration": 10.026132106781006,
+      "final_goal_dist": 12.093100963175168,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 10,
+      "total_reward": -1.6300000000000003,
+      "steps": 63,
+      "outcome": "collision",
+      "duration": 6.857541799545288,
+      "final_goal_dist": 14.288383780701938,
+      "min_obstacle": 0.10132361203432083
+    },
+    {
+      "episode": 11,
+      "total_reward": -1.02,
+      "steps": 2,
+      "outcome": "collision",
+      "duration": 0.2298903465270996,
+      "final_goal_dist": 15.101369387888404,
+      "min_obstacle": 0.3468184173107147
+    },
+    {
+      "episode": 12,
+      "total_reward": -2.0700000000000007,
+      "steps": 107,
+      "outcome": "collision",
+      "duration": 11.274527549743652,
+      "final_goal_dist": 9.51288034587344,
+      "min_obstacle": 0.10000152885913849
+    },
+    {
+      "episode": 13,
+      "total_reward": -1.05,
+      "steps": 5,
+      "outcome": "collision",
+      "duration": 0.552811861038208,
+      "final_goal_dist": 14.776236605298223,
+      "min_obstacle": 0.32254183292388916
+    },
+    {
+      "episode": 14,
+      "total_reward": -2.5200000000000014,
+      "steps": 152,
+      "outcome": "collision",
+      "duration": 15.793192625045776,
+      "final_goal_dist": 8.186705751819641,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 15,
+      "total_reward": -1.4300000000000002,
+      "steps": 43,
+      "outcome": "collision",
+      "duration": 4.626419305801392,
+      "final_goal_dist": 13.783523808255724,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 16,
+      "total_reward": -1.8800000000000006,
+      "steps": 88,
+      "outcome": "collision",
+      "duration": 9.27115511894226,
+      "final_goal_dist": 12.01028498316777,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 17,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.11397361755371094,
+      "final_goal_dist": 14.850109557669612,
+      "min_obstacle": 0.3518175184726715
+    },
+    {
+      "episode": 18,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.33628153800964355,
+      "final_goal_dist": 14.787247582776317,
+      "min_obstacle": 0.31158843636512756
+    },
+    {
+      "episode": 19,
+      "total_reward": -3.179999999999998,
+      "steps": 218,
+      "outcome": "collision",
+      "duration": 22.56611204147339,
+      "final_goal_dist": 6.688359186779456,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 20,
+      "total_reward": -2.1100000000000008,
+      "steps": 111,
+      "outcome": "collision",
+      "duration": 11.713159561157227,
+      "final_goal_dist": 9.998158161025007,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 21,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.33193135261535645,
+      "final_goal_dist": 14.897828794461613,
+      "min_obstacle": 0.34599176049232483
+    },
+    {
+      "episode": 22,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.3419954776763916,
+      "final_goal_dist": 14.757560990137426,
+      "min_obstacle": 0.3080015778541565
+    },
+    {
+      "episode": 23,
+      "total_reward": -1.05,
+      "steps": 5,
+      "outcome": "collision",
+      "duration": 0.553607702255249,
+      "final_goal_dist": 14.633391898550157,
+      "min_obstacle": 0.29508399963378906
+    },
+    {
+      "episode": 24,
+      "total_reward": -1.6900000000000004,
+      "steps": 69,
+      "outcome": "collision",
+      "duration": 7.334823131561279,
+      "final_goal_dist": 12.472780626764047,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 25,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.3099501132965088,
+      "final_goal_dist": 14.800813057509949,
+      "min_obstacle": 0.30700576305389404
+    },
+    {
+      "episode": 26,
+      "total_reward": -1.8900000000000006,
+      "steps": 89,
+      "outcome": "collision",
+      "duration": 9.421277284622192,
+      "final_goal_dist": 10.60554984603309,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 27,
+      "total_reward": -3.09,
+      "steps": 209,
+      "outcome": "collision",
+      "duration": 21.77793860435486,
+      "final_goal_dist": 6.1768687989237145,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 28,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.11062335968017578,
+      "final_goal_dist": 14.975640858651921,
+      "min_obstacle": 0.3069619834423065
+    },
+    {
+      "episode": 29,
+      "total_reward": -2.1000000000000005,
+      "steps": 110,
+      "outcome": "collision",
+      "duration": 11.638624429702759,
+      "final_goal_dist": 10.727742529766463,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 30,
+      "total_reward": -1.9900000000000007,
+      "steps": 99,
+      "outcome": "collision",
+      "duration": 10.498096227645874,
+      "final_goal_dist": 9.76415784378894,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 31,
+      "total_reward": -2.0600000000000005,
+      "steps": 106,
+      "outcome": "collision",
+      "duration": 11.224820375442505,
+      "final_goal_dist": 10.073960494309969,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 32,
+      "total_reward": -1.13,
+      "steps": 13,
+      "outcome": "collision",
+      "duration": 1.4195468425750732,
+      "final_goal_dist": 14.642124038950493,
+      "min_obstacle": 0.14557068049907684
+    },
+    {
+      "episode": 33,
+      "total_reward": -1.04,
+      "steps": 4,
+      "outcome": "collision",
+      "duration": 0.4563119411468506,
+      "final_goal_dist": 14.8178718442007,
+      "min_obstacle": 0.3158891499042511
+    },
+    {
+      "episode": 34,
+      "total_reward": -1.8700000000000006,
+      "steps": 87,
+      "outcome": "collision",
+      "duration": 9.213677406311035,
+      "final_goal_dist": 12.215600307993297,
+      "min_obstacle": 0.10021527856588364
+    },
+    {
+      "episode": 35,
+      "total_reward": -3.030000000000001,
+      "steps": 203,
+      "outcome": "collision",
+      "duration": 21.105276823043823,
+      "final_goal_dist": 6.154128339236916,
+      "min_obstacle": 0.10241441428661346
+    },
+    {
+      "episode": 36,
+      "total_reward": -1.5400000000000003,
+      "steps": 54,
+      "outcome": "collision",
+      "duration": 5.843859910964966,
+      "final_goal_dist": 14.406929884516925,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 37,
+      "total_reward": -3.8199999999999843,
+      "steps": 282,
+      "outcome": "collision",
+      "duration": 29.541589736938477,
+      "final_goal_dist": 6.135004947781496,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 38,
+      "total_reward": -2.1400000000000006,
+      "steps": 114,
+      "outcome": "collision",
+      "duration": 11.942030191421509,
+      "final_goal_dist": 9.958964809964426,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 39,
+      "total_reward": -2.190000000000001,
+      "steps": 119,
+      "outcome": "collision",
+      "duration": 12.739991426467896,
+      "final_goal_dist": 10.339631370738909,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 40,
+      "total_reward": -2.0100000000000007,
+      "steps": 101,
+      "outcome": "collision",
+      "duration": 10.657717943191528,
+      "final_goal_dist": 9.973137446332814,
+      "min_obstacle": 0.11183711141347885
+    },
+    {
+      "episode": 41,
+      "total_reward": -2.0300000000000007,
+      "steps": 103,
+      "outcome": "collision",
+      "duration": 10.823783874511719,
+      "final_goal_dist": 9.625784215252322,
+      "min_obstacle": 0.24318771064281464
+    },
+    {
+      "episode": 42,
+      "total_reward": -2.130000000000001,
+      "steps": 113,
+      "outcome": "collision",
+      "duration": 11.930114507675171,
+      "final_goal_dist": 9.827010746893887,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 43,
+      "total_reward": -1.07,
+      "steps": 7,
+      "outcome": "collision",
+      "duration": 0.7376613616943359,
+      "final_goal_dist": 14.622388633417502,
+      "min_obstacle": 0.28464773297309875
+    },
+    {
+      "episode": 44,
+      "total_reward": -3.0700000000000003,
+      "steps": 207,
+      "outcome": "collision",
+      "duration": 21.385318756103516,
+      "final_goal_dist": 6.299946806758503,
+      "min_obstacle": 0.10026704519987106
+    },
+    {
+      "episode": 45,
+      "total_reward": -2.0900000000000007,
+      "steps": 109,
+      "outcome": "collision",
+      "duration": 11.371478796005249,
+      "final_goal_dist": 9.578723687850601,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 46,
+      "total_reward": -2.4000000000000012,
+      "steps": 140,
+      "outcome": "collision",
+      "duration": 15.018132448196411,
+      "final_goal_dist": 12.423002976929412,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 47,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.11615753173828125,
+      "final_goal_dist": 14.996048938686073,
+      "min_obstacle": 0.30922505259513855
+    },
+    {
+      "episode": 48,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.34082889556884766,
+      "final_goal_dist": 14.795154043647837,
+      "min_obstacle": 0.3799184560775757
+    },
+    {
+      "episode": 49,
+      "total_reward": -2.660000000000001,
+      "steps": 166,
+      "outcome": "collision",
+      "duration": 17.172030687332153,
+      "final_goal_dist": 6.416575772275524,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 50,
+      "total_reward": -2.0500000000000007,
+      "steps": 105,
+      "outcome": "collision",
+      "duration": 11.005603790283203,
+      "final_goal_dist": 9.04377414436088,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 51,
+      "total_reward": -2.080000000000001,
+      "steps": 108,
+      "outcome": "collision",
+      "duration": 11.322302103042603,
+      "final_goal_dist": 9.247526434152698,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 52,
+      "total_reward": -1.06,
+      "steps": 6,
+      "outcome": "collision",
+      "duration": 0.6586582660675049,
+      "final_goal_dist": 15.138931190638745,
+      "min_obstacle": 0.3030422329902649
+    },
+    {
+      "episode": 53,
+      "total_reward": -1.6300000000000003,
+      "steps": 63,
+      "outcome": "collision",
+      "duration": 6.65601921081543,
+      "final_goal_dist": 12.155162813911161,
+      "min_obstacle": 0.18732979893684387
+    },
+    {
+      "episode": 54,
+      "total_reward": -1.02,
+      "steps": 2,
+      "outcome": "collision",
+      "duration": 0.22369980812072754,
+      "final_goal_dist": 14.85140493009265,
+      "min_obstacle": 0.3057396709918976
+    },
+    {
+      "episode": 55,
+      "total_reward": -1.6100000000000003,
+      "steps": 61,
+      "outcome": "collision",
+      "duration": 6.4749672412872314,
+      "final_goal_dist": 13.71484008082582,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 56,
+      "total_reward": -1.6700000000000004,
+      "steps": 67,
+      "outcome": "collision",
+      "duration": 7.095978736877441,
+      "final_goal_dist": 11.83380989385148,
+      "min_obstacle": 0.10081058740615845
+    },
+    {
+      "episode": 57,
+      "total_reward": -1.6800000000000004,
+      "steps": 68,
+      "outcome": "collision",
+      "duration": 7.253227472305298,
+      "final_goal_dist": 12.821061203040948,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 58,
+      "total_reward": -2.1800000000000006,
+      "steps": 118,
+      "outcome": "collision",
+      "duration": 12.30361795425415,
+      "final_goal_dist": 9.184544308032164,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 59,
+      "total_reward": -1.06,
+      "steps": 6,
+      "outcome": "collision",
+      "duration": 0.6647739410400391,
+      "final_goal_dist": 14.86358651353794,
+      "min_obstacle": 0.2868568003177643
+    },
+    {
+      "episode": 60,
+      "total_reward": -1.31,
+      "steps": 31,
+      "outcome": "collision",
+      "duration": 3.3063158988952637,
+      "final_goal_dist": 13.562357926116203,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 61,
+      "total_reward": -1.11,
+      "steps": 11,
+      "outcome": "collision",
+      "duration": 1.1953659057617188,
+      "final_goal_dist": 14.44923310149148,
+      "min_obstacle": 0.2849203944206238
+    },
+    {
+      "episode": 62,
+      "total_reward": -2.8500000000000014,
+      "steps": 185,
+      "outcome": "collision",
+      "duration": 19.62819743156433,
+      "final_goal_dist": 13.721339259280235,
+      "min_obstacle": 0.10019264370203018
+    },
+    {
+      "episode": 63,
+      "total_reward": -1.26,
+      "steps": 26,
+      "outcome": "collision",
+      "duration": 2.8270349502563477,
+      "final_goal_dist": 14.764636000041978,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 64,
+      "total_reward": -3.0500000000000007,
+      "steps": 205,
+      "outcome": "collision",
+      "duration": 22.37479066848755,
+      "final_goal_dist": 14.043964895313696,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 65,
+      "total_reward": -1.2,
+      "steps": 20,
+      "outcome": "collision",
+      "duration": 2.1749560832977295,
+      "final_goal_dist": 14.894631699095902,
+      "min_obstacle": 0.1458549201488495
+    },
+    {
+      "episode": 66,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.11113142967224121,
+      "final_goal_dist": 15.256594970400371,
+      "min_obstacle": 0.3179307281970978
+    },
+    {
+      "episode": 67,
+      "total_reward": -1.4500000000000002,
+      "steps": 45,
+      "outcome": "collision",
+      "duration": 4.850929260253906,
+      "final_goal_dist": 14.58728405884673,
+      "min_obstacle": 0.30032622814178467
+    },
+    {
+      "episode": 68,
+      "total_reward": -4.109999999999978,
+      "steps": 311,
+      "outcome": "collision",
+      "duration": 32.35371804237366,
+      "final_goal_dist": 6.949424554729841,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 69,
+      "total_reward": -2.9400000000000013,
+      "steps": 194,
+      "outcome": "collision",
+      "duration": 20.222153186798096,
+      "final_goal_dist": 9.050064288368565,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 70,
+      "total_reward": -3.739999999999986,
+      "steps": 274,
+      "outcome": "collision",
+      "duration": 28.429750442504883,
+      "final_goal_dist": 7.867016525618848,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 71,
+      "total_reward": -2.430000000000001,
+      "steps": 143,
+      "outcome": "collision",
+      "duration": 14.851392269134521,
+      "final_goal_dist": 8.362615270009906,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 72,
+      "total_reward": -1.6700000000000004,
+      "steps": 67,
+      "outcome": "collision",
+      "duration": 7.097643613815308,
+      "final_goal_dist": 11.618655436905915,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 73,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.33843207359313965,
+      "final_goal_dist": 14.791222743630597,
+      "min_obstacle": 0.3794781565666199
+    },
+    {
+      "episode": 74,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.12356185913085938,
+      "final_goal_dist": 14.860565858235358,
+      "min_obstacle": 0.3446446657180786
+    },
+    {
+      "episode": 75,
+      "total_reward": -1.8300000000000005,
+      "steps": 83,
+      "outcome": "collision",
+      "duration": 8.771720170974731,
+      "final_goal_dist": 12.084347311292275,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 76,
+      "total_reward": -1.11,
+      "steps": 11,
+      "outcome": "collision",
+      "duration": 1.1852467060089111,
+      "final_goal_dist": 14.236641434179427,
+      "min_obstacle": 0.10099584609270096
+    },
+    {
+      "episode": 77,
+      "total_reward": -2.4800000000000013,
+      "steps": 148,
+      "outcome": "collision",
+      "duration": 15.745705604553223,
+      "final_goal_dist": 13.560739711998304,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 78,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.10981965065002441,
+      "final_goal_dist": 15.062135403646364,
+      "min_obstacle": 0.31351080536842346
+    },
+    {
+      "episode": 79,
+      "total_reward": -1.5300000000000002,
+      "steps": 53,
+      "outcome": "collision",
+      "duration": 5.603652000427246,
+      "final_goal_dist": 12.860313654349817,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 80,
+      "total_reward": -2.0300000000000007,
+      "steps": 103,
+      "outcome": "collision",
+      "duration": 10.818711996078491,
+      "final_goal_dist": 10.592421877851313,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 81,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.11487507820129395,
+      "final_goal_dist": 14.965851869201854,
+      "min_obstacle": 0.31007683277130127
+    },
+    {
+      "episode": 82,
+      "total_reward": -3.4399999999999924,
+      "steps": 244,
+      "outcome": "collision",
+      "duration": 25.167574644088745,
+      "final_goal_dist": 6.142205988366915,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 83,
+      "total_reward": -1.04,
+      "steps": 4,
+      "outcome": "collision",
+      "duration": 0.4450259208679199,
+      "final_goal_dist": 14.727915577069858,
+      "min_obstacle": 0.28502246737480164
+    },
+    {
+      "episode": 84,
+      "total_reward": -1.3900000000000001,
+      "steps": 39,
+      "outcome": "collision",
+      "duration": 4.15475869178772,
+      "final_goal_dist": 13.520073875360687,
+      "min_obstacle": 0.10005950182676315
+    },
+    {
+      "episode": 85,
+      "total_reward": -1.7000000000000004,
+      "steps": 70,
+      "outcome": "collision",
+      "duration": 7.47667384147644,
+      "final_goal_dist": 11.82663598482105,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 86,
+      "total_reward": -2.160000000000001,
+      "steps": 116,
+      "outcome": "collision",
+      "duration": 12.316213607788086,
+      "final_goal_dist": 10.857493221188422,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 87,
+      "total_reward": -1.17,
+      "steps": 17,
+      "outcome": "collision",
+      "duration": 1.8157925605773926,
+      "final_goal_dist": 13.834269194766613,
+      "min_obstacle": 0.35004279017448425
+    },
+    {
+      "episode": 88,
+      "total_reward": -1.09,
+      "steps": 9,
+      "outcome": "collision",
+      "duration": 0.9917285442352295,
+      "final_goal_dist": 14.341855877143713,
+      "min_obstacle": 0.15678507089614868
+    },
+    {
+      "episode": 89,
+      "total_reward": -1.8000000000000005,
+      "steps": 80,
+      "outcome": "collision",
+      "duration": 8.527985334396362,
+      "final_goal_dist": 11.73042929565601,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 90,
+      "total_reward": -1.03,
+      "steps": 3,
+      "outcome": "collision",
+      "duration": 0.33465576171875,
+      "final_goal_dist": 14.793053579284088,
+      "min_obstacle": 0.3031556308269501
+    },
+    {
+      "episode": 91,
+      "total_reward": -3.179999999999998,
+      "steps": 218,
+      "outcome": "collision",
+      "duration": 22.526062965393066,
+      "final_goal_dist": 6.778969494518024,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 92,
+      "total_reward": -1.9700000000000006,
+      "steps": 97,
+      "outcome": "collision",
+      "duration": 10.124842405319214,
+      "final_goal_dist": 9.361434657585889,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 93,
+      "total_reward": -1.01,
+      "steps": 1,
+      "outcome": "collision",
+      "duration": 0.10665178298950195,
+      "final_goal_dist": 14.95974352412422,
+      "min_obstacle": 0.30170875787734985
+    },
+    {
+      "episode": 94,
+      "total_reward": -1.7900000000000005,
+      "steps": 79,
+      "outcome": "collision",
+      "duration": 8.441648244857788,
+      "final_goal_dist": 13.298615911674732,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 95,
+      "total_reward": -1.36,
+      "steps": 36,
+      "outcome": "collision",
+      "duration": 3.830744504928589,
+      "final_goal_dist": 12.823321805481623,
+      "min_obstacle": 0.10011286288499832
+    },
+    {
+      "episode": 96,
+      "total_reward": -1.9800000000000006,
+      "steps": 98,
+      "outcome": "collision",
+      "duration": 10.525508403778076,
+      "final_goal_dist": 13.48078900225943,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 97,
+      "total_reward": -1.04,
+      "steps": 4,
+      "outcome": "collision",
+      "duration": 0.4365513324737549,
+      "final_goal_dist": 14.787429553821678,
+      "min_obstacle": 0.3807813823223114
+    },
+    {
+      "episode": 98,
+      "total_reward": -1.3900000000000001,
+      "steps": 39,
+      "outcome": "collision",
+      "duration": 4.144484043121338,
+      "final_goal_dist": 13.762750236440125,
+      "min_obstacle": 0.285247266292572
+    },
+    {
+      "episode": 99,
+      "total_reward": -1.05,
+      "steps": 5,
+      "outcome": "collision",
+      "duration": 0.5411093235015869,
+      "final_goal_dist": 14.858360331642386,
+      "min_obstacle": 0.28662633895874023
+    }
+  ],
+  "metrics": {
+    "success_rate": 0.0,
+    "avg_reward": -1.7575999999999992,
+    "avg_steps": 75.76,
+    "avg_duration": 7.979149672985077,
+    "collision_rate": 1.0
+  }
+}

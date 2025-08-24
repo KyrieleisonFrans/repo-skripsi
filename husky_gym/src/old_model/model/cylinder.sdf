@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="animated_cylinder">
+    <static>false</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.35</radius>
+            <length>1.6</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <!-- Hot Pink (RGB: 1.0 0.0 0.5) -->
+          <ambient>1.0 0.0 0.5 1.0</ambient>    <!-- Ambient lighting effect -->
+          <diffuse>1.0 0.81 0.91 1.0</diffuse>     <!-- Main color -->
+          <specular>0.3 0.3 0.3 1.0</specular>   <!-- Shininess -->
+          <emissive>0.3 0.0 0.1 1.0</emissive>   <!-- Slight glow -->
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.35</radius>
+            <length>1.6</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

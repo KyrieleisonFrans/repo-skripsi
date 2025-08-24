@@ -1,0 +1,59 @@
+{
+  "test_id": "20250605_075016",
+  "model": "husky_ddqn_sb3_final.zip",
+  "timestamp": "2025-06-05T07:50:54.571220",
+  "results": [
+    {
+      "episode": 0,
+      "total_reward": -3.165617986475689,
+      "steps": 15,
+      "outcome": "DWA stuck",
+      "duration": 1.5218257904052734,
+      "final_goal_dist": 15.085231039342686,
+      "min_obstacle": 2.282993793487549
+    },
+    {
+      "episode": 1,
+      "total_reward": -8.501097132708018,
+      "steps": 4,
+      "outcome": "collision",
+      "duration": 0.4013376235961914,
+      "final_goal_dist": 15.068472678476017,
+      "min_obstacle": 0.3956969678401947
+    },
+    {
+      "episode": 2,
+      "total_reward": -5.189710842262276,
+      "steps": 61,
+      "outcome": "collision",
+      "duration": 6.163816213607788,
+      "final_goal_dist": 13.613747445759888,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 3,
+      "total_reward": -0.18350533087049747,
+      "steps": 113,
+      "outcome": "collision",
+      "duration": 11.402031421661377,
+      "final_goal_dist": 12.438746652786838,
+      "min_obstacle": 0.4498230516910553
+    },
+    {
+      "episode": 4,
+      "total_reward": -2.576711544394535,
+      "steps": 115,
+      "outcome": "collision",
+      "duration": 11.598144054412842,
+      "final_goal_dist": 12.294677487294573,
+      "min_obstacle": 0.46842461824417114
+    }
+  ],
+  "metrics": {
+    "success_rate": 0.0,
+    "avg_reward": -3.923328567342203,
+    "avg_steps": 61.6,
+    "avg_duration": 6.2174310207366945,
+    "collision_rate": 0.8
+  }
+}

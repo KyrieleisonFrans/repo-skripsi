@@ -1,0 +1,43 @@
+<launch>
+  <!-- Global Parameters -->
+  <arg name="use_sim_time" default="true" />
+  <arg name="headless" default="true" />
+  <arg name="gui" default="false"/>
+  <arg name="verbose" default="true"/>
+  <arg name="world_file" default="$(find husky_gym)/src/world/husky_training.world"/>
+
+  <!-- Set use_sim_time globally -->
+  <param name="/use_sim_time" value="$(arg use_sim_time)" />
+
+  <!-- Launch Gazebo -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="debug" value="0" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="verbose" value="$(arg verbose)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)" />
+    <arg name="headless" value="$(arg headless)" />
+    <arg name="world_name" value="$(arg world_file)" />
+  </include>
+
+  <!-- Static Transform Publisher -->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="world" args="0 0 0 0 0 0 1 ground_truth odom 100" /> -->
+
+  <!-- Husky Robots -->
+  <!-- <arg name="robot_namespace" default="husky0"/> -->
+  <include file="$(find husky_gazebo)/launch/spawn_husky.launch">
+    <arg name="x" value="9.0"/>
+    <arg name="y" value="5.0"/>
+    <arg name="z" value="0.15"/>
+    <arg name="yaw" value="135.15"/>
+  </include>
+
+  <!-- Spawn the two-cylinder model -->
+  <node name="spawn_cylinders" pkg="gazebo_ros" type="spawn_model" 
+        args="-sdf -file $(find husky_gym)/src/model/two_cylinders.sdf -model cylinders -x 0 -y 0 -z 0" /> 
+
+  <!-- Run the animation script -->
+  <node name="cylinder_dynamic" pkg="husky_gym" type="cylinder_dynamic_circular.py" output="screen" /> 
+
+ 
+
+</launch>

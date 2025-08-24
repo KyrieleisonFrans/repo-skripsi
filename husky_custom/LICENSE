@@ -1,0 +1,2 @@
+This repository contains modified versions of `husky_description` and `husky_viz` from the original Husky ROS packages (https://github.com/husky/husky).
+The original work is licensed under BSD-3-Clause License. Modifications are made for academic research purposes.

@@ -1,0 +1,59 @@
+{
+  "test_id": "20250605_074748",
+  "model": "husky_ddqn_sb3_final.zip",
+  "timestamp": "2025-06-05T07:48:35.899859",
+  "results": [
+    {
+      "episode": 0,
+      "total_reward": -10.853214823759654,
+      "steps": 30,
+      "outcome": "collision",
+      "duration": 3.026442050933838,
+      "final_goal_dist": 14.999773153480383,
+      "min_obstacle": 0.10000000149011612
+    },
+    {
+      "episode": 1,
+      "total_reward": -0.012005283128975058,
+      "steps": 10,
+      "outcome": "DWA stuck",
+      "duration": 1.013099193572998,
+      "final_goal_dist": 15.253989615383169,
+      "min_obstacle": 2.401749849319458
+    },
+    {
+      "episode": 2,
+      "total_reward": 11.650258669075502,
+      "steps": 89,
+      "outcome": "DWA stuck",
+      "duration": 8.983644962310791,
+      "final_goal_dist": 13.04989295026114,
+      "min_obstacle": 2.0875580310821533
+    },
+    {
+      "episode": 3,
+      "total_reward": -9.012598868720735,
+      "steps": 183,
+      "outcome": "DWA stuck",
+      "duration": 18.488402843475342,
+      "final_goal_dist": 11.42263197654698,
+      "min_obstacle": 0.16078154742717743
+    },
+    {
+      "episode": 4,
+      "total_reward": -10.191169210528876,
+      "steps": 95,
+      "outcome": "collision",
+      "duration": 9.58590030670166,
+      "final_goal_dist": 12.98569842106811,
+      "min_obstacle": 0.46625834703445435
+    }
+  ],
+  "metrics": {
+    "success_rate": 0.0,
+    "avg_reward": -3.6837459034125475,
+    "avg_steps": 81.4,
+    "avg_duration": 8.219497871398925,
+    "collision_rate": 0.4
+  }
+}

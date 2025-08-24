@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- Run the map server -->
+  <arg name="map_file" default="$(find husky_gym)/maps/20mx5m_room_2.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+  <!--- Run AMCL -->
+  <include file="$(find husky_gym)/launch/amcl.launch" />
+
+  <!--- Run Move Base -->
+  <include file="$(find husky_gym)/launch/husky_move_base.launch" />
+  <!-- <include file="$(find husky_navigation)/launch/move_base.launch" />  -->
+
+  <!-- Start training node -->
+  <node name="ddqn_trainer" pkg="husky_gym" type="dummy_training.py" output="screen"/> 
+</launch>

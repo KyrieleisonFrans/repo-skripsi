@@ -1,0 +1,8 @@
+<launch>
+  <arg name="launch_rviz" default="true" /> 
+  <group if="$(arg launch_rviz)">
+    <node name="rviz" pkg="rviz" type="rviz" 
+          args="-d $(find husky_gym)/src/rviz/training.rviz"
+          output="screen"/>
+  </group>
+</launch>
