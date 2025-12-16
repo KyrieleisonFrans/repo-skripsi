@@ -14,5 +14,5 @@
   <!-- <include file="$(find husky_navigation)/launch/move_base.launch" />  -->
 
   <!-- Start training node -->
-  <node name="ddqn_trainer" pkg="husky_gym" type="dummy_training.py" output="screen"/> 
+  <!-- <node name="ddqn_trainer" pkg="husky_gym" type="dummy_training.py" output="screen"/>  -->
 </launch>
